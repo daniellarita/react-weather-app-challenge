@@ -7,7 +7,7 @@ import {Link} from 'react-router'
 
 class NavBar extends React.Component {
   state = {
-    date: (new Date).toDateString()
+    date: (new Date()).toDateString()
   }
   render () {
     return (
